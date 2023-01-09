@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    overflow-y: hidden;
+    overflow-x: ;
+ 
+
+}
+header{
+    width: 100%;
+    height: 20vh;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    font-size: 45px;
+    color: white;
+    font-weight: 800;
+}
+ul{
+    display: flex;
+    margin-left: 180px;
+    margin-right: 150px;
+
+}
+li{
+    margin: 20px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: lighter;
+    font-family: 'Bebas Neue', cursive;
+}
+.btn{
+    padding: 15px 30px;
+    font-size: 15px;
+    background-color:rgba(255, 245, 245, 0.305);
+    border: none;
+    color: rgb(255, 242, 242);
+  box-shadow: inset 10px rgba(0,0,0,0);
+  cursor: pointer;
+  border-radius: 3px;
+}
+.btn:hover {
+    background-color:rgba(255, 245, 245, 0.496) ;
+}
+.main{
+    width: 100%;
+    height: 65vh;
+    background-color: blueviolet;
+    display: flex;
+}
+.main-content{
+    width: 50%;
+    height: 100%;
+   
+    padding: 25px 100px 50px 60px;
+}
+h1{
+    font-size: 50px;
+    line-height: 50px;
+   padding-top: 30px;
+   padding-bottom: 20px;
+   color: white;
+}
+.main-content p{
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-right: 50px;
+}
+.btns input {
+    font-size: 30px;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+   
+}
+#btns1{
+    background-color:rgba(255, 245, 245, 0.305);
+    border: none;
+    color: rgb(255, 242, 242);
+  box-shadow: inset 10px rgba(0,0,0,0);
+  margin-right: 30px;
+}
+#btns1:hover{
+  background-color: rgb(255, 242, 242);
+  color: black;
+}
+#btns2:hover{
+    background-color:rgba(255, 245, 245, 0.305);
+    color:white;
+}
+.imgage{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    align-items: center;
+    margin-right: 52px;
+    height: 400px;
+    
+}
+ image img {
+    width: 700px;
+ 
+}
+.footer{
+    justify-content: center;
+    text-align: center;
+    margin-top: 5px;
+}
+.para{
+    font-weight: bold;
+}
+span{
+    font-size: 15px;
+    padding-left: 5px;
+    color: blueviolet;
+}
